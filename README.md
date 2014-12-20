@@ -1,12 +1,13 @@
-# python-getting-started
+# buspointServer-getting-started
 
-A barebones Python app, which can easily be deployed to Heroku.
 
-This application support the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+Esta app esta basada en en django para python.
 
-## Running Locally
+Esta aplicacion soporta el articulo[Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) - check it out.
 
-Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+## Ejecutar Localmente
+
+Asegurarse de Tener Python [instalado correctamente](http://install.python-guide.org).  Tambien instalar [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
 $ git clone git@github.com:heroku/python-getting-started.git
@@ -16,9 +17,9 @@ $ python manage.py syncdb
 $ foreman start web
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+La aplicacino debe de ejecutarse en [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Desarrollo en Heroku
 
 ```sh
 $ heroku create
@@ -27,9 +28,8 @@ $ heroku run python manage.py syncdb
 $ heroku open
 ```
 
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
+## Documentacion
+Para mas informacion sobre python en Heroku, vea:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
 
